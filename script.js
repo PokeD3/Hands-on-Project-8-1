@@ -13,11 +13,11 @@
 var newAccountArray = new Array();
 //Step5
 function createID() {
-    var fname= document.getElementById("fnameinput"); 
-    var lname= document.getElementById("lnameinput");
-    var zip= document.getElementById("zipinput");
-    var account= document.getElementById("accountidbox");
-    var fields= document.getElementsByTagName("input");
+    var fname = document.getElementById("fnameinput"); 
+    var lname = document.getElementById("lnameinput");
+    var zip = document.getElementById("zipinput");
+    var account = document.getElementById("accountidbox");
+    var fields = document.getElementsByTagName("input");
     var acctid;
     var firstInit;
     var lastInit;
