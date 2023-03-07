@@ -28,8 +28,9 @@ function createID() {
 	acctid = firstInit + lastInit + zip.value;
     	account.value = acctid; 
     	newAccountArray = [];
-    for (var i = 0; i < fields.length - 1; i++) {
-        newAccountArray.push(fields[i].value);
+    	for (var i = 0; i < fields.length - 1; i++) {
+        	newAccountArray.push(fields[i].value);
+    	}
     }
 }
 //Step7
