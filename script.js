@@ -10,7 +10,7 @@
 */
 //Step4
 "use strict";
-var newAccountArray = new Array();
+var newAccountArray = [];
 //Step5
 function createID() {
     var fname = document.getElementById("fnameinput"); 
