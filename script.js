@@ -22,11 +22,12 @@ function createID() {
     var firstInit;
     var lastInit;
     //Step6
-    if (fname != "") {firstInit = fname.value.charAt(0).toUpperCase();}
-    if (lname != "") {lastInit = lname.value.charAt(0).toUpperCase();}
-	if (acctid!= "") {acctid = firstInit + lastInit + zip.value;}
-    account.value = acctid; 
-    newAccountArray = [];
+    if (fname != "" && lname != "" && zip != "") {
+	firstInit = fname.value.charAt(0).toUpperCase();
+	lastInit = lname.value.charAt(0).toUpperCase();
+	acctid = firstInit + lastInit + zip.value;
+    	account.value = acctid; 
+    	newAccountArray = [];
     for (var i = 0; i < fields.length - 1; i++) {
         newAccountArray.push(fields[i].value);
     }
